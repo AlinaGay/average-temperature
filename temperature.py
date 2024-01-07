@@ -9,3 +9,9 @@ while i <= days:
 
 averageTemp = sum(temp)/len(temp)  
 print(f'Average = {averageTemp}')
+
+j=0
+for t in temp:
+  if t > averageTemp:
+    j+= 1
+print(f'{j}day(s) above average')    
